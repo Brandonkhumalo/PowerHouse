@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Kanit:ital,wght@1,600&family=Prompt:wght@600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    --color-text: rgb(151, 180, 207);
+    --text: 'Roboto', sans-serif;
+    --color-btn: rgb(207, 6, 6);
+    --heading: 'Prompt', 'Roboto', sans-serif;
+    --kanit: 'Kanit', 'sans-serif';
+    --bg-color:rgb(36, 35, 35);
+    --text-color: rgb(94, 93, 93);
+}
+
+.gallery{
+    padding-top: 150px;
+    padding-bottom: 45px;
+    color: var(--color-text);
+    text-align: center;
+    
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Prompt', 'Roboto', sans-serif;
+}
+
+.galleryContainer{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, minmax(350px, 350px));
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.gallery-pic{
+    width: 350px;
+    height: 280px;
+}
+
+.newpage{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    padding-bottom: 40px;
+}
+
+.gallery-mo{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+
+    font-size: 20px;
+    text-decoration: none;
+    background-color: var(--bg-color);
+
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+}
+
+.clr{
+    background-color: var(--color-btn);
+}

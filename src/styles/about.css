@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Kanit:ital,wght@1,600&family=Prompt:wght@600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    --color-text: rgb(151, 180, 207);
+    --text: 'Roboto', sans-serif;
+    --color-btn: rgb(207, 6, 6);
+    --heading: 'Prompt', 'Roboto', sans-serif;
+    --kanit: 'Kanit', 'sans-serif';
+    --bg-color:rgb(24, 24, 24);
+    --text-color: rgb(170, 169, 169);
+}
+
+.abou{
+    padding-top: 150px;
+    font-size: 35px;
+    font-family: var(--heading);
+    color: var(--color-text);
+    text-align: center;
+}
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.history{
+    margin-left: 5px;
+    width: 470px;
+    background-color: var(--bg-color);
+}
+
+.hist{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.histtxt{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-family: var(--heading);
+    color: var(--color-text);
+    text-align: center;
+}
+
+.histtext{
+    font-family: var(--text);
+    color: var(--text-color);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.aboutone{
+    width: 470px;
+    height: 400px;
+}

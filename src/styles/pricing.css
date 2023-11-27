@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Kanit:ital,wght@1,600&family=Prompt:wght@600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    --color-text: rgb(151, 180, 207);
+    --text: 'Roboto', sans-serif;
+    --color-btn: rgb(207, 6, 6);
+    --heading: 'Prompt', 'Roboto', sans-serif;
+    --kanit: 'Kanit', 'sans-serif';
+    --bg-color:rgb(36, 35, 35);
+    --text-color: rgb(170, 169, 169);
+}
+
+.price{
+    padding-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.price-one{
+    font-size: 35px;
+    font-family: var(--kanit);
+    color: var(--color-text);
+    margin-bottom: 5px;
+}
+
+.price-two{
+    font-size: 17px;
+    font-family: var(--text);
+    color: var(--color-text);
+}
+
+.pricing{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plan-img{
+    width: 350px;
+    height: 220px;
+}
+
+.class-bg{
+    background-color: rgb(24, 24, 24);
+}
+
+.level-text{
+    font-size: 25px;
+    font-family: var(--heading);
+    color: var(--text-color);
+
+    margin-top: -37px;
+}
+
+.level-text:hover{
+    cursor: pointer;
+    color: rgb(207, 6, 6);
+}
+
+.amount{
+    font-size: 40px;
+    font-family: var(--heading);
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.your-class{
+    font-size: 16px;
+    font-family: var(--text);
+    color: var(--text-color);
+    padding-bottom: 18px;
+}
+
+.price-btn{
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: rgb(53, 52, 52);
+
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.price-btn:hover{
+    background-color: rgb(207, 6, 6);
+    border-radius: 8px;
+
+    transition-timing-function: ease-in-out;
+}
